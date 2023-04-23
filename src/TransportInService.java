@@ -24,12 +24,6 @@ public abstract class TransportInService implements ServiceTransport{
         this.wheelsCount = wheelCount;
     }
 
-    void checkEngine(){
-        System.out.println("Проверяем двигатель");
-    }
-    public void checkTrailer() {
-        System.out.println("Проверяем прицеп");
-    }
     public void changeTire() {
         System.out.println("Обслуживаем " + getTransportModel());
         int tireCounter = 0;
